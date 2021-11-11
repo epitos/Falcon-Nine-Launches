@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Falcon 9 Launches</string>
+    <string name="mission_success">Mission Success:</string>
+    <string name="launch_date">Launch Date:</string>
+</resources>
