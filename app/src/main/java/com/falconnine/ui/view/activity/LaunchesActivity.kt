@@ -18,7 +18,7 @@ class LaunchesActivity: AppCompatActivity(), LaunchesContract.View  {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        var presenter = LaunchesPresenter(this,
+        val presenter = LaunchesPresenter(this,
             APIClient.getClient().create(APIInterface::class.java))
         presenter.getLaunches()
     }
